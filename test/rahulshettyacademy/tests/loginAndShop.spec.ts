@@ -13,4 +13,5 @@ test('Login and verify iPhone X in shop', async ({ page }) => {
     const shopPage = new ShopPage(page);
     const isIphonePresent = await shopPage.isProductPresent('iphone X');
     expect(isIphonePresent).toBeTruthy();
+    //hare Krishna
 });
